@@ -13,6 +13,11 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
+    <!--自己实现的监听器-->
+    <listener>
+        <listener-class>com._520it.crm.web.listener.ServerStartupListener</listener-class>
+    </listener>
+
     <!--    配置字符编码过滤器-->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
