@@ -23,15 +23,14 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-   <!-- &lt;!&ndash;    4.配置拦截器&ndash;&gt;
+    <!--  4.配置拦截器-->
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/*"/>
-            &lt;!&ndash; 排除拦截登录请求&ndash;&gt;
+            <!--排除拦截登录请求-->
             <mvc:exclude-mapping path="/login"/>
             <bean class="com._520it.crm.web.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
-    </mvc:interceptors>-->
-
+    </mvc:interceptors>
 
 </beans>
