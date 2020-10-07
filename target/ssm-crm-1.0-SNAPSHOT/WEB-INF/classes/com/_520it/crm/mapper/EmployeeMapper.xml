@@ -49,4 +49,8 @@
     select id, username, realname, password, tel, email, dept_id, inputtime, state, admin
     from employee
   </select>
+  <select id="queryByLogin" resultMap="BaseResultMap">
+    select * from employee
+    where username=#{username} and password =#{password}
+  </select>
 </mapper>

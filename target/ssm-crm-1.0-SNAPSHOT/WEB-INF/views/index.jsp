@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>客户关系管理系统</title>
+<title>CRM客户关系管理系统</title>
 	<%@include file="common.jsp"%>
 	<script type="text/javascript" src="${APP_PATH}/js/views/index.js"></script>
 </head>
 <body>
 	<div id="cc" class="easyui-layout" fit="true" style="width:600px;height:400px;">   
 	    <div data-options="region:'north'" style="height:100px;background:url('${APP_PATH}/img/banner-pic.gif') no-repeat;background-size:cover; ">
-	    	<h1>小码哥客户关系管理系统</h1>
+	    	<h1>CRM客户关系管理系统</h1>
 	    </div>   
 	    <div data-options="region:'west'" style="width:150px;">
 	    	<!-- 手风琴+菜单 -->

@@ -1,3 +1,4 @@
+//页面加载时就调用
 $(function(){
 	$("#menuTree").tree({
 		url:'js/data/menu.json',

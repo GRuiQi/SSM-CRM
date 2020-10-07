@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class EmployeeService implements IEmployeeService {
@@ -37,5 +38,10 @@ public class EmployeeService implements IEmployeeService {
     @Override
     public int updateByPrimaryKey(Employee record) {
         return employeeDao.updateByPrimaryKey(record);
+    }
+
+    @Override
+    public Employee queryByLogin(String username,String password) {
+        return employeeDao.queryByLogin(username,password);
     }
 }
