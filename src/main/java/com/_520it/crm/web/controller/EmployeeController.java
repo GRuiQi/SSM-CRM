@@ -29,11 +29,30 @@ public class EmployeeController {
     @ResponseBody
     @RequestMapping("/employee_list")
     public PageResult list(QueryObject queryObject){
+        //System.out.println(queryObject);
         PageResult pageResult = null;
         pageResult = employeeService.queryForPage(queryObject);
         return pageResult;
     }
 
+    @ResponseBody
+    @RequestMapping("/employee_save")
+    public Map<String,Object> save(Employee emp){
+        Map<String,Object> result = new HashMap<String,Object>();
+        try{
+            emp.setPassword("888");
+            emp.setAdmin(false);
+            emp.setState(true);
+            employeeService.insert(emp);
+            result.put("success",true);
+            result.put("msg","保存成功");
+        }catch (Exception e){
+            result.put("success",false);
+            result.put("msg","保存异常，请联系管理员");
+
+        }
+        return result;
+    }
 
     @ResponseBody
     @RequestMapping("/login")
@@ -51,4 +70,6 @@ public class EmployeeController {
 
         return result;
     }
+
+
 }

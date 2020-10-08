@@ -12,7 +12,7 @@
     <result column="inputtime" property="inputtime" jdbcType="DATE" />
     <result column="state" property="state" jdbcType="BIT" />
     <result column="admin" property="admin" jdbcType="BIT" />
-    <association property="dept" javaType="com._520it.crm.domain.Department">
+    <association property="dept" javaType="com._520it.crm.domain.Department" columnPrefix="d_">
         <id column="id" property="id"/>
         <result column="name" property="name"/>
     </association>
@@ -61,11 +61,11 @@
 
   <!--查询分页数据-->
   <select id="queryForPage" resultMap="BaseResultMap">
-     select e.id, e.username, e.realname, e.password, e.tel, e.email, e.inputtime, e.state,
+     select e.id, e.username, e.realname, e.tel, e.email, e.inputtime, e.state,e.admin,
      d.id as d_id, d.name as d_name
      from employee e
      left join department d
-     on (e.dept_id  =  d.id)
+     on (e.dept_id  = d.id)
      <if test="page!=null">
        limit #{start},#{rows}
      </if>

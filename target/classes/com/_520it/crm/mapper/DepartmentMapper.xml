@@ -32,4 +32,10 @@
     select id, sn, name
     from department
   </select>
+
+  <!--查询弹出表单-->
+  <select id="queryForEmp" resultType="com._520it.crm.domain.Department">
+    select id, name from department
+    </select>
+
 </mapper>

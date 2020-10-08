@@ -21,8 +21,45 @@ $(function(){
             ]
         ]
     });
+
+    $('#emp_dialog').dialog({
+        width: 300,
+        height: 300,
+        buttons: '#emp_dialog_bt',
+        closed: true
+    });
 });
 
 function deptFormatter(value,record,index) {
     return value?value.name:value;
+}
+
+function add(){
+    $("#emp_dialog").dialog("open");
+    $("#emp_dialog").dialog("setTitle", "新增");
+    $("#emp_form").form("clear");
+}
+
+function cancel(){
+    $("#emp_dialog").dialog("close");
+}
+
+function save(){
+    //发送异步请求
+    $('#emp_form').form("submit",{
+        url: '/ssm-crm/employee_save',
+        success: function (data) {
+            data = $.parseJSON(data);
+            if (data.success) {
+                $.messager.alert("温馨提示", data.msg, "info", function () {
+                    // 关闭对话框
+                    $("#emp_dialog").dialog("close");
+                    // 刷新数据表格（其实就是调用最上面的那个list方法）
+                    $("#emp_datagrid").datagrid("reload");
+                });
+            } else {
+                $.messager.alert("温馨提示", data.msg, "info")
+            }
+        }
+    });
 }

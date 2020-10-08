@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
@@ -26,7 +27,8 @@ public class Employee {
 
     private Department dept;  //部门
 
-    @JsonFormat(pattern="yyyy-MM-dd",timezone ="GTM+8")
+    @JsonFormat(pattern="yyyy-MM-dd",timezone ="GTM+8")  //后台发送都前台
+    @DateTimeFormat(pattern = "yyyy-MM-dd")   //前台发送到后台
     private Date inputtime;  //录入时间
 
     private Boolean state; //就职状态

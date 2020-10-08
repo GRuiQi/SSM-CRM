@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface IEmployeeService {
+
     int deleteByPrimaryKey(Long id);
 
     int insert(Employee record);

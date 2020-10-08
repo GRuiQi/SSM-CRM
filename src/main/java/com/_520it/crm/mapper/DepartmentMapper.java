@@ -13,4 +13,6 @@ public interface DepartmentMapper {
     List<Department> selectAll();
 
     int updateByPrimaryKey(Department record);
+
+    List<Department> queryForEmp();
 }
