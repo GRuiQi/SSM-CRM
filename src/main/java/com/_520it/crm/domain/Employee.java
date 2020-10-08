@@ -1,5 +1,6 @@
 package com._520it.crm.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -25,6 +26,7 @@ public class Employee {
 
     private Department dept;  //部门
 
+    @JsonFormat(pattern="yyyy-MM-dd",timezone ="GTM+8")
     private Date inputtime;  //录入时间
 
     private Boolean state; //就职状态

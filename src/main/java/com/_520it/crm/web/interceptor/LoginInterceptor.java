@@ -22,7 +22,7 @@ public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
 
-        //拦截登陆
+        //拦截登陆  在springmvc配置文件中放行/login
         Employee employee = (Employee)httpServletRequest.getSession().getAttribute(UserContext.USER_IN_SESSION);
         if(employee ==null){
             //拦截请求并且重定向到登陆页面

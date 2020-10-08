@@ -2,10 +2,13 @@ package com._520it.crm.service.impl;
 
 import com._520it.crm.domain.Employee;
 import com._520it.crm.mapper.EmployeeMapper;
+import com._520it.crm.page.PageResult;
+import com._520it.crm.query.QueryObject;
 import com._520it.crm.service.IEmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -43,5 +46,22 @@ public class EmployeeService implements IEmployeeService {
     @Override
     public Employee queryByLogin(String username,String password) {
         return employeeDao.queryByLogin(username,password);
+    }
+
+    /**
+     * 分页查询
+     * @param queryObject
+     * @return
+     */
+    @Override
+    public PageResult queryForPage(QueryObject queryObject) {
+        //查询总记录数
+        Long count = employeeDao.queryForPageCount(queryObject);
+        if(count==0){
+            return new PageResult(0,Collections.emptyList());
+        }
+        List<Employee> result = employeeDao.queryForPage(queryObject);
+
+        return new PageResult(count.intValue(),result);
     }
 }

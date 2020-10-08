@@ -1,6 +1,8 @@
 package com._520it.crm.web.controller;
 
 import com._520it.crm.domain.Employee;
+import com._520it.crm.page.PageResult;
+import com._520it.crm.query.QueryObject;
 import com._520it.crm.service.IEmployeeService;
 import com._520it.crm.util.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +20,20 @@ public class EmployeeController {
 
     @Autowired
     private IEmployeeService employeeService;
+
+    @RequestMapping("/employee")
+    public String index(){
+        return "employee";
+    }
+
+    @ResponseBody
+    @RequestMapping("/employee_list")
+    public PageResult list(QueryObject queryObject){
+        PageResult pageResult = null;
+        pageResult = employeeService.queryForPage(queryObject);
+        return pageResult;
+    }
+
 
     @ResponseBody
     @RequestMapping("/login")

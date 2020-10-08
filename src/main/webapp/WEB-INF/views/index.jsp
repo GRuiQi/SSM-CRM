@@ -4,7 +4,35 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>CRM客户关系管理系统</title>
 	<%@include file="common.jsp"%>
-	<script type="text/javascript" src="${APP_PATH}/js/views/index.js"></script>
+	<%--<script type="text/javascript" src="${APP_PATH}/js/views/index.js">--%>
+	<script type="text/javascript">
+        //页面加载完毕后执行
+        $(function() {
+            $("#menuTree").tree({
+                url: 'js/data/menu.json',
+                onClick: function (node) {
+
+                    //在选项中添加新面板
+                    var myTab = $("#myTabs");
+                    //在选项卡中是否已经有该节点的面板.
+                    if (myTab.tabs("exists", node.text)) {
+                        //选中面板
+                        myTab.tabs("select", node.text);
+                    } else {
+                        myTab.tabs("add", {
+                            title: node.text,
+                            closable: true,
+                            href: "${APP_PATH}"+node.attributes.url
+                            //content:"<iframe src='"+node.attributes.url+"' style='width:100%;height:100%' frameborder=0></iframe>"
+                        });
+                    }
+
+                }
+            });
+        });
+
+
+	</script>
 </head>
 <body>
 	<div id="cc" class="easyui-layout" fit="true" style="width:600px;height:400px;">   
