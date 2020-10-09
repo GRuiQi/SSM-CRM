@@ -17,10 +17,10 @@
     <table id="emp_datagrid"></table>
     <%--数据的顶部按钮--%>
     <div id="emp_datagrid_tb">
-        <a class="easyui-linkbutton" iconCls="icon-add" onclick="add()" plain="true">新增</a>
-        <a class="easyui-linkbutton" iconCls="icon-edit" plain="true">编辑</a>
-        <a class="easyui-linkbutton" iconCls="icon-remove" plain="true">离职</a>
-        <a class="easyui-linkbutton" iconCls="icon-reload" plain="true">刷新</a>
+        <a class="easyui-linkbutton"  iconCls="icon-add" onclick="add()" plain="true">新增</a>
+        <a class="easyui-linkbutton" id="#emp_datagrid_edit" iconCls="icon-edit" onclick="edit()" plain="true">编辑</a>
+        <a class="easyui-linkbutton" id="emp_datagrid_del" iconCls="icon-remove" onclick="del()" plain="true">离职</a>
+        <a class="easyui-linkbutton" iconCls="icon-reload" onclick="reload()" plain="true">刷新</a>
     </div>
     <%--对话框--%>
     <div id="emp_dialog">

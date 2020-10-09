@@ -24,4 +24,7 @@ public interface EmployeeMapper {
     Long queryForPageCount(QueryObject queryObject);
 
     List<Employee> queryForPage(QueryObject queryObject);
+
+
+    void updateState(Long id);
 }

@@ -22,4 +22,6 @@ public interface IEmployeeService {
     Employee queryByLogin(String username,String password);
 
     PageResult queryForPage(QueryObject queryObject);
+
+    void updateState(Long id);
 }

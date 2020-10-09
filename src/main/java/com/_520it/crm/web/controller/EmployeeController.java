@@ -26,6 +26,9 @@ public class EmployeeController {
         return "employee";
     }
 
+
+
+
     @ResponseBody
     @RequestMapping("/employee_list")
     public PageResult list(QueryObject queryObject){
@@ -34,6 +37,43 @@ public class EmployeeController {
         pageResult = employeeService.queryForPage(queryObject);
         return pageResult;
     }
+
+    @ResponseBody
+    @RequestMapping("/employee_delete")
+    public Map<String,Object> delete(Long id){
+        Map<String,Object> result = new HashMap<String,Object>();
+        try{
+
+            employeeService.updateState(id);
+            result.put("success",true);
+            result.put("msg","保存成功");
+        }catch (Exception e){
+            result.put("success",false);
+            result.put("msg","保存异常，请联系管理员");
+
+        }
+        return result;
+    }
+
+
+
+    @ResponseBody
+    @RequestMapping("/employee_update")
+    public Map<String,Object> update(Employee emp){
+        Map<String,Object> result = new HashMap<String,Object>();
+        try{
+
+            employeeService.updateByPrimaryKey(emp);
+            result.put("success",true);
+            result.put("msg","保存成功");
+        }catch (Exception e){
+            result.put("success",false);
+            result.put("msg","保存异常，请联系管理员");
+
+        }
+        return result;
+    }
+
 
     @ResponseBody
     @RequestMapping("/employee_save")
