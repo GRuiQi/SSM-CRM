@@ -18,9 +18,12 @@
     <%--数据的顶部按钮--%>
     <div id="emp_datagrid_tb">
         <a class="easyui-linkbutton"  iconCls="icon-add" onclick="add()" plain="true">新增</a>
-        <a class="easyui-linkbutton" id="#emp_datagrid_edit" iconCls="icon-edit" onclick="edit()" plain="true">编辑</a>
+        <a class="easyui-linkbutton" id="emp_datagrid_edit" iconCls="icon-edit" onclick="edit()" plain="true">编辑</a>
         <a class="easyui-linkbutton" id="emp_datagrid_del" iconCls="icon-remove" onclick="del()" plain="true">离职</a>
         <a class="easyui-linkbutton" iconCls="icon-reload" onclick="reload()" plain="true">刷新</a>
+        <div>
+            关键字查询：<input name="keyword"><a class="easyui-linkbutton" iconCls="icon-search" onclick="find()">搜索</a>
+        </div>
     </div>
     <%--对话框--%>
     <div id="emp_dialog">

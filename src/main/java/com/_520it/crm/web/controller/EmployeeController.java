@@ -34,6 +34,7 @@ public class EmployeeController {
     public PageResult list(QueryObject queryObject){
         //System.out.println(queryObject);
         PageResult pageResult = null;
+        System.out.println("queryObject.getKeyword()"+queryObject.getKeyword());
         pageResult = employeeService.queryForPage(queryObject);
         return pageResult;
     }

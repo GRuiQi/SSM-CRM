@@ -134,3 +134,10 @@ function del(){
         $.messager.alert("温馨提示", "请选择需要离职的员工", "info");
     }
 }
+
+function find() {
+    var keyword = $("[name='keyword']").val();
+    $("#emp_datagrid").datagrid("load", {
+        keyword: keyword
+    });
+}

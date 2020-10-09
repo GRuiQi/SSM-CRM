@@ -56,9 +56,21 @@
     where username=#{username} and password =#{password}
   </select>
 
+  <sql id="where_sql">
+    <where>
+      <if test="keyword!=null">
+          e.username like concat('%',#{keyword},'%')
+          or e.realname like concat('%',#{keyword},'%')
+          or e.tel like concat('%',#{keyword},'%')
+          or e.email like concat('%',#{keyword},'%')
+      </if>
+    </where>
+  </sql>
+
   <!--查询总记录数-->
   <select id="queryForPageCount" resultType="java.lang.Long">
-    select count(*) from employee
+    select count(*) from employee e
+    <include refid="where_sql"/>
   </select>
 
   <!--查询分页数据-->
@@ -68,6 +80,7 @@
      from employee e
      left join department d
      on (e.dept_id  = d.id)
+    <include refid="where_sql"/>
      <if test="page!=null">
        limit #{start},#{rows}
      </if>
