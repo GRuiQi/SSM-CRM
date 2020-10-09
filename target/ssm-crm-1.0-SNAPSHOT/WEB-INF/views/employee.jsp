@@ -17,10 +17,10 @@
     <table id="emp_datagrid"></table>
     <%--数据的顶部按钮--%>
     <div id="emp_datagrid_tb">
-        <a class="easyui-linkbutton"  iconCls="icon-add" onclick="add()" plain="true">新增</a>
-        <a class="easyui-linkbutton" id="emp_datagrid_edit" iconCls="icon-edit" onclick="edit()" plain="true">编辑</a>
-        <a class="easyui-linkbutton" id="emp_datagrid_del" iconCls="icon-remove" onclick="del()" plain="true">离职</a>
-        <a class="easyui-linkbutton" iconCls="icon-reload" onclick="reload()" plain="true">刷新</a>
+        <a class="easyui-linkbutton"  iconCls="icon-add" data-cmd="add" plain="true">新增</a>
+        <a class="easyui-linkbutton" id="emp_datagrid_edit" iconCls="icon-edit" data-cmd="edit" plain="true">编辑</a>
+        <a class="easyui-linkbutton" id="emp_datagrid_del" iconCls="icon-remove" data-cmd="del" plain="true">离职</a>
+        <a class="easyui-linkbutton" iconCls="icon-reload" data-cmd="reload" plain="true">刷新</a>
         <div>
             关键字查询：<input name="keyword"><a class="easyui-linkbutton" iconCls="icon-search" onclick="find()">搜索</a>
         </div>
@@ -63,8 +63,8 @@
 
     <%--对话框底部--%>
     <div id="emp_dialog_bt">
-        <a class="easyui-linkbutton" iconCls="icon-save" plain="true" onclick="save()" data-cmd="save">保存</a>
-        <a class="easyui-linkbutton" iconCls="icon-cancel" plain="true" onclick="cancel()" data-cmd="cancel">取消</a>
+        <a class="easyui-linkbutton" iconCls="icon-save" plain="true"  data-cmd="save">保存</a>
+        <a class="easyui-linkbutton" iconCls="icon-cancel" plain="true"  data-cmd="cancel">取消</a>
     </div>
 
 </body>

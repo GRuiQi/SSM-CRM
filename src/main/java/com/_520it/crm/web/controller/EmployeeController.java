@@ -4,6 +4,7 @@ import com._520it.crm.domain.Employee;
 import com._520it.crm.page.PageResult;
 import com._520it.crm.query.QueryObject;
 import com._520it.crm.service.IEmployeeService;
+import com._520it.crm.util.AjaxResult;
 import com._520it.crm.util.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -32,7 +33,7 @@ public class EmployeeController {
     @ResponseBody
     @RequestMapping("/employee_list")
     public PageResult list(QueryObject queryObject){
-        //System.out.println(queryObject);
+        //System.out.println("ueryObject"+queryObject);
         PageResult pageResult = null;
         System.out.println("queryObject.getKeyword()"+queryObject.getKeyword());
         pageResult = employeeService.queryForPage(queryObject);
@@ -41,16 +42,14 @@ public class EmployeeController {
 
     @ResponseBody
     @RequestMapping("/employee_delete")
-    public Map<String,Object> delete(Long id){
-        Map<String,Object> result = new HashMap<String,Object>();
+    public AjaxResult delete(Long id){
+        AjaxResult result = null;
         try{
 
-            employeeService.updateState(id);
-            result.put("success",true);
-            result.put("msg","保存成功");
+           employeeService.updateState(id);
+           result = new AjaxResult("删除成功",true);
         }catch (Exception e){
-            result.put("success",false);
-            result.put("msg","保存异常，请联系管理员");
+           result = new AjaxResult("删除失败，请联系管理员");
 
         }
         return result;
@@ -60,16 +59,14 @@ public class EmployeeController {
 
     @ResponseBody
     @RequestMapping("/employee_update")
-    public Map<String,Object> update(Employee emp){
-        Map<String,Object> result = new HashMap<String,Object>();
+    public AjaxResult update(Employee emp){
+        AjaxResult result = null;
         try{
 
             employeeService.updateByPrimaryKey(emp);
-            result.put("success",true);
-            result.put("msg","保存成功");
+            result = new AjaxResult("更新成功",true);
         }catch (Exception e){
-            result.put("success",false);
-            result.put("msg","保存异常，请联系管理员");
+            result = new AjaxResult("更新异常，请联系管理员");
 
         }
         return result;
@@ -78,18 +75,17 @@ public class EmployeeController {
 
     @ResponseBody
     @RequestMapping("/employee_save")
-    public Map<String,Object> save(Employee emp){
-        Map<String,Object> result = new HashMap<String,Object>();
+    public AjaxResult save(Employee emp){
+        AjaxResult result = null;
         try{
             emp.setPassword("888");
             emp.setAdmin(false);
             emp.setState(true);
             employeeService.insert(emp);
-            result.put("success",true);
-            result.put("msg","保存成功");
+            result = new AjaxResult("保存成功",true);
         }catch (Exception e){
-            result.put("success",false);
-            result.put("msg","保存异常，请联系管理员");
+
+            result = new AjaxResult("保存异常，请联系管理员");
 
         }
         return result;
@@ -97,16 +93,14 @@ public class EmployeeController {
 
     @ResponseBody
     @RequestMapping("/login")
-    public Map login(String username, String password,HttpSession session){
-        Map<String,Object> result = new HashMap<>();
+    public AjaxResult login(String username, String password,HttpSession session){
+        AjaxResult result = null;
         Employee user = employeeService.queryByLogin(username,password);
         if(user!=null){
             session.setAttribute(UserContext.USER_IN_SESSION,user);
-            result.put("success",true);
-            result.put("msg","登陆成功");
+            result = new AjaxResult("登陆成功",true);
         }else{
-            result.put("success",false);
-            result.put("msg","账号密码有误");
+            result = new AjaxResult("账号密码有误");
         }
 
         return result;

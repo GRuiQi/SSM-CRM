@@ -1,5 +1,14 @@
 $(function(){
-    $('#emp_datagrid').datagrid({
+
+    // 抽取变量：这个js文件中出现多少次${"#....}，JS引擎就会去对应的页面做多少次元素查找。
+    // 现在这样集中整合后，每种选择器只做一次，后面都是直接用变量
+    var empDatagrid, empDatagridEditAndDel, empDiglog, empForm;
+    empDatagrid = $("#emp_datagrid");
+    empDatagridEditAndDel = $("#emp_datagrid_del,#emp_datagrid_edit");
+    empDiglog = $("#emp_dialog");
+    empForm = $("#emp_form");
+
+    empDatagrid.datagrid({
         url: "/ssm-crm/employee_list",
         fit: true,
         fitColumns: true,
@@ -11,9 +20,9 @@ $(function(){
         // 监听鼠标选中的行,离职之后，编辑和删除按钮失效
         onClickRow: function (rowIndex, rowData) {
             if (rowData.state) {
-                $("#emp_datagrid_del,#emp_datagrid_edit").linkbutton("enable");
+                empDatagridEditAndDel.linkbutton("enable");
             } else {
-                $("#emp_datagrid_del,#emp_datagrid_edit").linkbutton("disable");
+                empDatagridEditAndDel.linkbutton("disable");
             }
         },
         columns: [
@@ -30,12 +39,133 @@ $(function(){
         ]
     });
 
-    $('#emp_dialog').dialog({
+    // 主页面一加载就先做好这个弹窗，只不过由于closed: true，所以一开始是隐藏的
+    empDiglog.dialog({
         width: 300,
         height: 300,
         buttons: '#emp_dialog_bt',
         closed: true
     });
+
+    //统一管理方法
+    var cmdObj = {
+
+        add: function(){
+            empDiglog.dialog("open");
+            empDiglog.dialog("setTitle", "新增");
+            empForm.form("clear");
+        },
+
+        save: function(){
+
+            var idVal = $("#emp_form [name='id']").val();
+
+            var url;
+            //如果有id，说明是编辑；否则是保存
+            if(idVal){
+                url="/ssm-crm/employee_update";
+            }else{
+                url="/ssm-crm/employee_save";
+            }
+            //发送异步请求
+            $('#emp_form').form("submit",{
+                url: url,
+                success: function (data) {
+                    data = $.parseJSON(data);
+                    if (data.success) {
+                        $.messager.alert("温馨提示", data.msg, "info", function () {
+                            // 关闭对话框
+                            empDiglog.dialog("close");
+                            // 刷新数据表格（其实就是调用最上面的那个list方法）
+                            empDatagrid.datagrid("reload");
+                        });
+                    } else {
+                        $.messager.alert("温馨提示", data.msg, "info")
+                    }
+                }
+            });
+        },
+
+
+        // 注意，这个方法其实是跳转页面（弹窗）。真正修改后的数据，还是要通过上面的save()提交到后台
+        edit: function(){
+            //获取到选中的数据（一整行，也就是一个Employee对象信息）
+            var rowData =   empDatagrid.datagrid("getSelected");
+            if(rowData){
+                empDiglog.dialog("open");
+                empDiglog.dialog("setTitle", "编辑");
+                empForm.form("clear");
+                // 处理特殊属性：给rowData对象添加一个属性（Java是不能动态添加属性的)
+                if (rowData.dept) {
+                    rowData["dept.id"] = rowData.dept.id;
+                }
+                //数据回显
+                $('#emp_form').form("load",rowData);
+            }else{
+                $.messager.alert("温馨提示", "请选中一条需要编辑的数据", "info");
+            }
+        },
+
+        del: function() {
+            var rowData =   empDatagrid.datagrid("getSelected");
+            if(rowData){
+                // 刷新数据表格
+                $.messager.confirm("温馨提示", "您确定要删除这条数据吗？", function (yes) {
+                    if (yes) {
+                        $.get("/ssm-crm/employee_delete?id=" + rowData.id, function (data) {
+                            if (data.success) {
+                                $.messager.alert("温馨提示", data.msg, "info", function () {
+                                    // 刷新表格数据
+                                    empDatagrid.datagrid("reload");
+                                });
+                            } else {
+                                $.messager.alert("温馨提示", data.msg, "info");
+                            }
+                        }, "json");
+                    }
+                });
+            }else{
+                $.messager.alert("温馨提示", "请选择需要离职的员工", "info");
+            }
+        },
+
+        reload: function(){
+            empDatagrid.datagrid("reload");
+        },
+
+        cancel: function () {
+            empDiglog.dialog("close");
+        },
+
+        find: function(){
+            var keyword = $("[name='keyword']").val();
+            empDatagrid.datagrid("load", {
+                keyword: keyword
+            });
+        }
+
+
+    }
+
+
+    // 对按钮进行统一的监听
+    $("a[data-cmd]").on("click", function () {
+        var cmd = $(this).data("cmd");
+        if (cmd) {
+            cmdObj[cmd]();
+        }
+    });
+
+
+    //允许用户通过enter键查询
+    $(document).keyup(function (event) {
+        if (event.keyCode == 13) {
+            //如果按的是enter键，调用find()
+            cmdObj.find();
+        }
+    });
+
+
 });
 
 function deptFormatter(value,record,index) {
@@ -48,96 +178,4 @@ function stateFormatter(value, record, index) {
 
 function adminFormatter(value, record, index) {
     return value ? "是" : "否";
-}
-function add(){
-    $("#emp_dialog").dialog("open");
-    $("#emp_dialog").dialog("setTitle", "新增");
-    $("#emp_form").form("clear");
-}
-
-function cancel(){
-    $("#emp_dialog").dialog("close");
-}
-
-function reload(){
-    $("#emp_datagrid").datagrid("reload");
-}
-
-function save(){
-
-    var idVal = $("#emp_form [name='id']").val();
-    console.log(idVal);
-    var url;
-    //如果有id，说明是编辑；否则是保存
-    if(idVal){
-        url="/ssm-crm/employee_update";
-    }else{
-        url="/ssm-crm/employee_save";
-    }
-    //发送异步请求
-    $('#emp_form').form("submit",{
-        url: url,
-        success: function (data) {
-            data = $.parseJSON(data);
-            if (data.success) {
-                $.messager.alert("温馨提示", data.msg, "info", function () {
-                    // 关闭对话框
-                    $("#emp_dialog").dialog("close");
-                    // 刷新数据表格（其实就是调用最上面的那个list方法）
-                    $("#emp_datagrid").datagrid("reload");
-                });
-            } else {
-                $.messager.alert("温馨提示", data.msg, "info")
-            }
-        }
-    });
-}
-//这个方法是跳转页面弹窗，真正修改后的数据需要通过save()提交到后台
-function edit() {
-    //获取到选中的数据（一整行，也就是一个Employee对象信息）
-    var rowData =  $("#emp_datagrid").datagrid("getSelected");
-    if(rowData){
-        $("#emp_dialog").dialog("open");
-        $("#emp_dialog").dialog("setTitle", "编辑");
-        $("#emp_form").form("clear");
-        // 处理特殊属性：给rowData对象添加一个属性（Java是不能动态添加属性的)
-        if (rowData.dept) {
-            rowData["dept.id"] = rowData.dept.id;
-        }
-        //数据回显
-        $('#emp_form').form("load",rowData);
-    }else{
-        $.messager.alert("温馨提示", "请选中一条需要编辑的数据", "info");
-    }
-}
-
-
-function del(){
-    var rowData =  $("#emp_datagrid").datagrid("getSelected");
-    if(rowData){
-        // 刷新数据表格
-        $.messager.confirm("温馨提示", "您确定要删除这条数据吗？", function (yes) {
-            if (yes) {
-                $.get("/ssm-crm/employee_delete?id=" + rowData.id, function (data) {
-                    if (data.success) {
-                        $.messager.alert("温馨提示", data.msg, "info", function () {
-                            // 刷新表格数据
-                            $("#emp_datagrid").datagrid("reload");
-                        });
-                    } else {
-                        $.messager.alert("温馨提示", data.msg, "info");
-                    }
-                }, "json");
-            }
-        });
-    }else{
-        $.messager.alert("温馨提示", "请选择需要离职的员工", "info");
-    }
-}
-
-function find() {
-    var keyword = $("[name='keyword']").val();
-    $("#emp_datagrid").datagrid("load", {
-        keyword: keyword
-    });
 }
