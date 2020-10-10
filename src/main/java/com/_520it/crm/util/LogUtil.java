@@ -34,8 +34,9 @@ public class LogUtil {
 
         //如果这里拿到sessin就可以获取用户
         HttpServletRequest request = UserContext.get();
-        Employee currentUser = (Employee)request.getAttribute(UserContext.USER_IN_SESSION);
-
+        Employee currentUser = (Employee)request.getSession().getAttribute(UserContext.USER_IN_SESSION);
+        log.setOpuser(currentUser);
+       
 
         //让request来拿远程访问应用对应的ip地址
         log.setOpip(request.getRemoteAddr());
