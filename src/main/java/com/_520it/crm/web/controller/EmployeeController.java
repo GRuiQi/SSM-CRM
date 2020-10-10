@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
@@ -93,11 +94,15 @@ public class EmployeeController {
 
     @ResponseBody
     @RequestMapping("/login")
-    public AjaxResult login(String username, String password,HttpSession session){
+    public AjaxResult login(String username, String password, HttpServletRequest request){
+
+        /* AOP日志相关：把request放入当前线程 */
+        UserContext.set(request);
+
         AjaxResult result = null;
         Employee user = employeeService.queryByLogin(username,password);
         if(user!=null){
-            session.setAttribute(UserContext.USER_IN_SESSION,user);
+            request.getSession().setAttribute(UserContext.USER_IN_SESSION,user);
             result = new AjaxResult("登陆成功",true);
         }else{
             result = new AjaxResult("账号密码有误");

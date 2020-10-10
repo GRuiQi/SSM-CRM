@@ -58,15 +58,15 @@
         </tx:attributes>
     </tx:advice>
 
-   <!-- <bean id="logUtil" class="com._520it.crm.util.LogUtil"></bean>-->
+    <bean id="logUtil" class="com._520it.crm.util.LogUtil"></bean>
 
     <!-- AOP相关配置：这个就是把事务工具类当做AOP的一个adviser，加入到责任链中-->
     <aop:config>
         <aop:pointcut id="crudPointCut" expression="execution(* com._520it.crm.service.*Service.*(..))"/>
         <aop:advisor advice-ref="advice" pointcut-ref="crudPointCut"/>
-       <!-- <aop:aspect ref="logUtil">
+        <aop:aspect ref="logUtil">
             <aop:after method="writeLog" pointcut-ref="crudPointCut"/>
-        </aop:aspect>-->
+        </aop:aspect>
     </aop:config>
 
 

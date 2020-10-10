@@ -22,6 +22,12 @@ public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
 
+        /*为当前线程绑定request对象*/
+        UserContext.set(httpServletRequest);
+
+        /* 登陆请求 /login 已配置不经过拦截器，没有往线程里放request */
+
+
         //拦截登陆  在springmvc配置文件中放行/login
         Employee employee = (Employee)httpServletRequest.getSession().getAttribute(UserContext.USER_IN_SESSION);
         if(employee ==null){
