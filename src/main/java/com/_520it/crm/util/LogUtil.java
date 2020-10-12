@@ -1,5 +1,4 @@
 package com._520it.crm.util;
-
 import com._520it.crm.domain.Employee;
 import com._520it.crm.domain.Log;
 import com._520it.crm.service.ILogService;
@@ -36,7 +35,7 @@ public class LogUtil {
         HttpServletRequest request = UserContext.get();
         Employee currentUser = (Employee)request.getSession().getAttribute(UserContext.USER_IN_SESSION);
         log.setOpuser(currentUser);
-       
+
 
         //让request来拿远程访问应用对应的ip地址
         log.setOpip(request.getRemoteAddr());

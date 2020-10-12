@@ -2,7 +2,7 @@ package com._520it.crm.web.controller;
 
 import com._520it.crm.domain.Employee;
 import com._520it.crm.page.PageResult;
-import com._520it.crm.query.QueryObject;
+import com._520it.crm.query.EmployeeQueryObject;
 import com._520it.crm.service.IEmployeeService;
 import com._520it.crm.util.AjaxResult;
 import com._520it.crm.util.UserContext;
@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.util.HashMap;
-import java.util.Map;
 
 @Controller
 public class EmployeeController {
@@ -33,7 +30,7 @@ public class EmployeeController {
 
     @ResponseBody
     @RequestMapping("/employee_list")
-    public PageResult list(QueryObject queryObject){
+    public PageResult list(EmployeeQueryObject queryObject){
         //System.out.println("ueryObject"+queryObject);
         PageResult pageResult = null;
         System.out.println("queryObject.getKeyword()"+queryObject.getKeyword());

@@ -1,0 +1,17 @@
+package com._520it.crm.domain;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+public class Permission {
+    private Long id;
+
+    private String name;
+
+    private String resource;
+
+
+}

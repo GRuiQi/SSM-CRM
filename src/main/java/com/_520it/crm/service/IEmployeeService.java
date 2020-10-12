@@ -5,7 +5,6 @@ import com._520it.crm.page.PageResult;
 import com._520it.crm.query.QueryObject;
 
 import java.util.List;
-import java.util.Map;
 
 public interface IEmployeeService {
 
@@ -24,4 +23,5 @@ public interface IEmployeeService {
     PageResult queryForPage(QueryObject queryObject);
 
     void updateState(Long id);
+
 }

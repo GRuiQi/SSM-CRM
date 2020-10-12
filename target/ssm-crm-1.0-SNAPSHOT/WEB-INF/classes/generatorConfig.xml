@@ -86,7 +86,9 @@
 			<property name="constructorBased" value="false" />
 			<generatedKey column="id" sqlStatement="JDBC" />
 		</table>-->
-		<table tableName="log">
+
+		<!-- employee department log permission role-->
+		<table tableName="role">
 			<!-- 参考 javaModelGenerator 的 constructorBased属性 -->
 			<property name="constructorBased" value="false" />
 			<generatedKey column="id" sqlStatement="JDBC" />
