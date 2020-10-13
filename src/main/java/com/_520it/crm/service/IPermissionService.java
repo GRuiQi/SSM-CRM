@@ -20,5 +20,5 @@ public interface IPermissionService {
     PageResult queryForPage(QueryObject queryObject);
 
 
-
+    List<String> queryResourceByEid(Long id);
 }

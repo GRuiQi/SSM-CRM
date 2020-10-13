@@ -19,7 +19,7 @@ public class RoleController {
     private IRoleService roleService;
 
     @RequestMapping("/role")
-    public String role() {
+    public String index() {
         return "role";
     }
 

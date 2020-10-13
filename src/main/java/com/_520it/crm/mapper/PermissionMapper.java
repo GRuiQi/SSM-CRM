@@ -20,5 +20,7 @@ public interface PermissionMapper {
 
     List<Permission> queryForPage(QueryObject queryObject);
 
-    //List<String> queryResourceByEid(Long );
+    List<String> queryResourceByEid(Long id);
+
+
 }

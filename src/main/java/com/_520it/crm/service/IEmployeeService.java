@@ -8,6 +8,9 @@ import java.util.List;
 
 public interface IEmployeeService {
 
+    /**
+     * 删除也需要维护中间表
+     */
     int deleteByPrimaryKey(Long id);
 
     /**

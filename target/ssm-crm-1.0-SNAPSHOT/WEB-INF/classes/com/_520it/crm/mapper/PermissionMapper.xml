@@ -82,4 +82,14 @@
     delete from role_permissiion
     where r_id = #{id,jdbcType=BIGINT}
   </delete>
+
+  <!--根据eid查询用户拥有的权限resource，由于不同的角色肯能有相同重叠权限，最好加DISTINCT-->
+  <select id="queryResourceByEid(" resultType="java.lang.String">
+    select DISTINCT p.resource from permission p
+    left join role_permission rp on rp.P_id = p.id
+    left join role r on r.id = rp.r_id
+    where r.id in (
+      select r_id from emp_role er where er.e_id = #{eid}
+    )
+  </select>
 </mapper>

@@ -4,6 +4,7 @@ import com._520it.crm.domain.Employee;
 import com._520it.crm.page.PageResult;
 import com._520it.crm.query.EmployeeQueryObject;
 import com._520it.crm.service.IEmployeeService;
+import com._520it.crm.service.IPermissionService;
 import com._520it.crm.util.AjaxResult;
 import com._520it.crm.util.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,9 @@ public class EmployeeController {
 
     @Autowired
     private IEmployeeService employeeService;
+
+    @Autowired
+    private IPermissionService permissionService;
 
     @RequestMapping("/employee")
     public String index(){
@@ -98,9 +102,16 @@ public class EmployeeController {
         UserContext.set(request);
 
         AjaxResult result = null;
+
         Employee user = employeeService.queryByLogin(username,password);
+
         if(user!=null){
+            //把用户信息放入session
             request.getSession().setAttribute(UserContext.USER_IN_SESSION,user);
+            //把用户拥有的权限放入session
+            List<String> userPermissions = permissionService.queryResourceByEid(user.getId());
+            System.out.println("currentUser 's permissionService:"+userPermissions);
+            request.getSession().setAttribute(UserContext.PERMISSION_IN_SESSION,userPermissions);
             result = new AjaxResult("登陆成功",true);
         }else{
             result = new AjaxResult("账号密码有误");

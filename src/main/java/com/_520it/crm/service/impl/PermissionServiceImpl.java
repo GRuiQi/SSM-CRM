@@ -55,4 +55,8 @@ public class PermissionServiceImpl implements IPermissionService {
     }
 
 
+    @Override
+    public List<String> queryResourceByEid(Long id) {
+        return permissionMapper.queryResourceByEid(id);
+    }
 }

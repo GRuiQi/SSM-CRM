@@ -20,6 +20,9 @@ public class EmployeeService implements IEmployeeService {
 
     @Override
     public int deleteByPrimaryKey(Long id) {
+        //先根据id删除中间表emp_role的信息
+        employeeMapper.deleteRelation(id);
+        //删除employee信息，本项目中没有调用这个方法
         return employeeMapper.deleteByPrimaryKey(id);
     }
 
