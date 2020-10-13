@@ -10,12 +10,22 @@ public interface IEmployeeService {
 
     int deleteByPrimaryKey(Long id);
 
+    /**
+     * 需要维护中间表emp_role
+     * @param record
+     * @return
+     */
     int insert(Employee record);
 
     Employee selectByPrimaryKey(Long id);
 
     List<Employee> selectAll();
 
+    /**
+     * 删除旧的角色，维护中间表
+     * @param record
+     * @return
+     */
     int updateByPrimaryKey(Employee record);
 
     Employee queryByLogin(String username,String password);
@@ -24,4 +34,5 @@ public interface IEmployeeService {
 
     void updateState(Long id);
 
+    List<Long> queryRoleByEid(Long eid);
 }

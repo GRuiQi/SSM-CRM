@@ -26,4 +26,10 @@ public interface EmployeeMapper {
 
 
     void updateState(Long id);
+
+    void insertRelation(@Param("eid")Long eid, @Param("rid")Long rid);
+
+    List<Long> queryRoleByEid(Long eid);
+
+    void deleteRelation(Long id);
 }

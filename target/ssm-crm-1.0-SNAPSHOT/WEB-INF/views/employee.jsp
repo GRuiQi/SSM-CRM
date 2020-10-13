@@ -57,6 +57,15 @@
                     <td>入职时间</td>
                     <td><input type="text" name="inputtime" class="easyui-datebox"/></td>
                 </tr>
+                <tr>
+                    <td>角色</td>
+                    <td>
+                        <%--valueField绑定后台;textField显示在前台--%>
+                        <input id="emp_roles" type="text" class="easyui-combobox"
+                               data-options="valueField:'id', textField:'name', url:'${APP_PATH}/role_queryForEmployee', multiple:true">
+                    </td>
+
+                </tr>
             </table>
         </form>
     </div>

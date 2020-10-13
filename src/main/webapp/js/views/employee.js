@@ -70,6 +70,14 @@ $(function(){
             //发送异步请求
             $('#emp_form').form("submit",{
                 url: url,
+                onSubmit: function(param){
+                  //1.获取选择角色的ids
+                  var ids = $('#emp_roles').combobox("getValues");
+                  //2.把这些参数塞到到参数中
+                  for(var i=0;i<ids.length;i++){
+                      param["roles["+i+"].id"]=ids[i];
+                  }
+                },
                 success: function (data) {
                     data = $.parseJSON(data);
                     if (data.success) {
@@ -99,7 +107,19 @@ $(function(){
                 if (rowData.dept) {
                     rowData["dept.id"] = rowData.dept.id;
                 }
-                //数据回显
+
+                // 发动一个同步请求到后台查询员工对应的角色
+                var html = $.ajax({
+                    url:"/ssm-crm/role_queryByEid?eid="+rowData.id,
+                    async:false // 必须是同步请求，否则后台数据还没返回，前台就忙着设置，会是空！
+                }).responseText;
+                //字符串转换为数组
+                console.log(html);
+                html = $.parseJSON(html);
+                // 回显角色
+                $("#emp_roles").combobox("setValues", html);
+
+                //把rowData加载到窗口显示
                 $('#emp_form').form("load",rowData);
             }else{
                 $.messager.alert("温馨提示", "请选中一条需要编辑的数据", "info");

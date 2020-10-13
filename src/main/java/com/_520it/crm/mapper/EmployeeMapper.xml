@@ -91,4 +91,22 @@
         update employee set state = 0
         where id = #{id,jdbcType=BIGINT}
     </update>
+
+
+
+  <!--插入emp_role中间表-->
+  <insert id="insertRelation">
+    insert into emp_role (e_id, r_id) values (#{eid}, #{rid})
+  </insert>
+
+    <!--根据eid查询员工对应的角色-->
+    <select id="queryRoleByEid" resultType="long">
+      select r_id from emp_role
+      where e_id = #{eid}
+    </select>
+
+   <delete id="deleteRelation">
+     delete from emp_role
+     where e_id = #{eid,jdbcType=BIGINT}
+   </delete>
 </mapper>

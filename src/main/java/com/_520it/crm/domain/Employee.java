@@ -7,6 +7,7 @@ import lombok.ToString;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
+import java.util.List;
 
 @Getter
 @Setter
@@ -34,6 +35,8 @@ public class Employee {
     private Boolean state; //就职状态
 
     private Boolean admin; //超级管理员身份
+
+    private List<Role> roles; //员工的角色
 
 
 }

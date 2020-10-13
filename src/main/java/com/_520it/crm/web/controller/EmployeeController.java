@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @Controller
 public class EmployeeController {
@@ -108,5 +109,10 @@ public class EmployeeController {
         return result;
     }
 
+    @RequestMapping("/role_queryByEid")
+    @ResponseBody
+    public List queryByEid(Long eid){
+        return employeeService.queryRoleByEid(eid);
+    }
 
 }
