@@ -3,6 +3,7 @@ package com._520it.crm.web.interceptor;
 import com._520it.crm.domain.Employee;
 import com._520it.crm.util.PermissionUtil;
 import com._520it.crm.util.UserContext;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -62,7 +63,14 @@ public class LoginInterceptor implements HandlerInterceptor {
             if(flag){
                 return true;
             }else{
-                System.out.println("被拦截了");
+                if(methodObj.getMethod().isAnnotationPresent(ResponseBody.class)){
+                    //如果是ajax
+                    httpServletResponse.sendRedirect("/ssm-crm/noPermission.json");
+                }else{
+                    //若果是页面，重定向到noPermission.jsp
+                    httpServletResponse.sendRedirect("/ssm-crm/noPermission.jsp");
+
+                }
                 return false;
             }
 
