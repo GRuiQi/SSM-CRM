@@ -7,29 +7,33 @@
 	<%--<script type="text/javascript" src="${APP_PATH}/js/views/index.js">--%>
 	<script type="text/javascript">
         //页面加载完毕后执行
-        $(function() {
+        $(function(){
             $("#menuTree").tree({
-                url: 'js/data/menu.json',
-                onClick: function (node) {
-
+                url:'${APP_PATH}/queryForMenu',
+                onClick:function(node){
+                    if (node.attributes) {
+                        node.attributes = $.parseJSON(node.attributes);
+                    }
+                    console.log(node);
                     //在选项中添加新面板
                     var myTab = $("#myTabs");
                     //在选项卡中是否已经有该节点的面板.
-                    if (myTab.tabs("exists", node.text)) {
+                    if(myTab.tabs("exists",node.text)){
                         //选中面板
-                        myTab.tabs("select", node.text);
-                    } else {
-                        myTab.tabs("add", {
-                            title: node.text,
-                            closable: true,
-                            href: "${APP_PATH}"+node.attributes.url
-                            //content:"<iframe src='"+node.attributes.url+"' style='width:100%;height:100%' frameborder=0></iframe>"
+                        myTab.tabs("select",node.text);
+                    }else{
+                        myTab.tabs("add",{
+                            title:node.text,
+                            closable:true,
+                            content:"<iframe src='"+"${APP_PATH}"+node.attributes.url+"' style='width:100%;height:100%' frameborder=0></iframe>"
                         });
                     }
 
                 }
             });
         });
+
+
 
 
 	</script>

@@ -1,6 +1,8 @@
 package com._520it.crm.service;
 
 import com._520it.crm.domain.Department;
+import com._520it.crm.page.PageResult;
+import com._520it.crm.query.DepartmentQueryObject;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,4 +21,7 @@ public interface IDepartmentService {
 
     List<Department> queryForEmp();
 
+    PageResult queryForPage(DepartmentQueryObject queryObject);
+
+    int updateState(Long id);
 }

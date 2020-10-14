@@ -1,8 +1,10 @@
 package com._520it.crm.util;
 
 import com._520it.crm.domain.Employee;
+import com._520it.crm.domain.Menu;
 import com._520it.crm.domain.Permission;
 import com._520it.crm.service.IPermissionService;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -19,6 +21,8 @@ public class PermissionUtil {
      */
 
     private static IPermissionService permissionService;
+
+
 
     @Autowired
     public void setPermissionService(IPermissionService permissionService){
@@ -69,6 +73,39 @@ public class PermissionUtil {
         }else{
             //当前访问的方法不需要权限验证，直接放行
             return true;
+        }
+    }
+
+
+    /**
+     * 根据当前用户权限，从全部菜单中筛选出用户能够访问的菜单
+     * @param menuList
+     */
+    public static void checkMenuPermission(List<Menu> menuList) {
+        //用户拥有的权限
+        List<String> userPermissions = (List<String>)UserContext.get().getSession().getAttribute(UserContext.PERMISSION_IN_SESSION);
+
+        //遍历系统菜单，与当前用户拥有的权限进行比对
+        for(int i=0;i<menuList.size();i++){
+            //这里采用正向遍历
+            String menuPermission = menuList.get(i).getFunction();
+            //菜单需要访问权限  当Str的length>0时，isNotBlank返回true
+            if(StringUtils.isNotBlank(menuPermission)){
+                //如果用户权限没有菜单权限，删除它，这样前台就不会显示
+                if(!userPermissions.contains(menuPermission)){
+                    menuList.remove(i);
+                    //从前往后遍历，需要i-- 。因为该索引被删除前的元素的下一个元素占领，i--相当于回退遍历该元素
+                    i--;
+                }
+                //else就说明该用户有权限，不需处理，菜单保留着
+            }
+            //else 说明该菜单根本不需要访问权限，谁都可以来访问，那么当前用户也可以，还是不做处理，菜单保留着
+
+            //递归处理子菜单
+            List<Menu> childrenMenuList = menuList.get(i).getChildren();
+            if(!childrenMenuList.isEmpty()){
+                checkMenuPermission(childrenMenuList);
+            }
         }
     }
 }
