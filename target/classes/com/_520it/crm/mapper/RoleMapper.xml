@@ -44,11 +44,18 @@
         or r.name like concat('%', #{keyword}, '%')
         )
       </if>
+      <if test="keyword != null">
+        (
+        name like concat('%', #{keyword}, '%')
+        or resource like concat('%', #{keyword}, '%')
+        )
+      </if>
     </where>
   </sql>
 
   <select id="queryForPageCount" resultType="java.lang.Long">
     select count(*) from role
+    <include refid="where_sql"/>
   </select>
 
 

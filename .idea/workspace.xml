@@ -8,8 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a75d077-f221-400b-b603-f69640cbc4ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,41 +27,8 @@
       <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="1102">
               <caret line="113" column="46" lean-forward="true" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/util/PermissionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/RoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -69,51 +36,76 @@
       <file leaf-file-name="LoginInterceptor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="240">
+              <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noPermission.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/noPermission.jsp">
+      <file leaf-file-name="myFn.tld" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/myFn.tld">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="209">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noPermission.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/noPermission.json">
+      <file leaf-file-name="DepartmentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
+            <state relative-caret-position="-458" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerStartupListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/listener/ServerStartupListener.java">
+      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1083" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/IndexController.java">
+      <file leaf-file-name="LogMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-610" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="role.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/role.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-392">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -153,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/application-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/data/menu.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/index.js" />
@@ -181,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/views/employee.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java" />
@@ -204,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/noPermission.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/noPermission.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/myFn.tld" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp" />
       </list>
     </option>
   </component>
@@ -244,8 +236,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="495" />
-    <option name="y" value="9" />
+    <option name="x" value="562" />
+    <option name="y" value="16" />
     <option name="width" value="1373" />
     <option name="height" value="1013" />
   </component>
@@ -534,7 +526,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="logininter&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;RoleCon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/RoleController.java&#10;permissionu&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/PermissionUtil.java&#10;permi.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;empcon.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Loginin.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;Perm.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;login.ja&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;EmployeeController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;empmapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;employmapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;EmployeeController.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;emp.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;empcon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;empmapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java&#10;mapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;empCon&#9;PSI&#9;JAVA://com._520it.crm.web.controller.EmployeeController&#10;emp.&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;employee.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;employee.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/WEB-INF/views/employee.jsp&#10;RoleController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/RoleController.java&#10;permmapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;RoleMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;rolemapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;Perm&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;role.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/role.js&#10;permissionMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;PermissionController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;rolemapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;Per.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;RoleMapp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;PermissionC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;role.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/WEB-INF/views/role.jsp&#10;Employeecon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Logutil&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/LogUtil.java&#10;UserC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/UserContext.java&#10;LogMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/LogMapper.xml&#10;UserContext&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/UserContext.java&#10;empMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Emcon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Employee.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;EmpMapper.&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;EmployeeMapper.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java&#10;EmC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;employee.s&#9;null&#9;null&#10;em&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/service/impl/EmployeeService.java&#10;EmployeeMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Employee&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Employee.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/domain/Employee.java&#10;EmployeeMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml" />
+    <property name="SearchEverywhereHistoryKey" value="empcon.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;employee.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/WEB-INF/views/employee.jsp&#10;logininter&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;RoleCon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/RoleController.java&#10;permissionu&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/PermissionUtil.java&#10;permi.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;Loginin.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;Perm.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;login.ja&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;EmployeeController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;empmapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;employmapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;EmployeeController.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;emp.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;empcon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;empmapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java&#10;mapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;empCon&#9;PSI&#9;JAVA://com._520it.crm.web.controller.EmployeeController&#10;emp.&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;employee.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;RoleController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/RoleController.java&#10;permmapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;RoleMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;rolemapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;Perm&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;role.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/role.js&#10;permissionMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;PermissionController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;rolemapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;Per.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;RoleMapp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;PermissionC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;role.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/WEB-INF/views/role.jsp&#10;Employeecon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Logutil&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/LogUtil.java&#10;UserC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/UserContext.java&#10;LogMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/LogMapper.xml&#10;UserContext&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/UserContext.java&#10;empMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Emcon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Employee.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;EmpMapper.&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;EmployeeMapper.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java&#10;EmC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;employee.s&#9;null&#9;null&#10;em&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/service/impl/EmployeeService.java&#10;EmployeeMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Employee&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Employee.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/domain/Employee.java&#10;EmployeeMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -549,16 +541,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com._520it.crm.service.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\java\com\_520it\crm\query" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp" />
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\resources" />
+      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp\WEB-INF\views" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp\WEB-INF\views" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\java\com\_520it\crm\query" />
+      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp" />
+      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -783,7 +776,7 @@
       <workItem from="1602547045741" duration="4584000" />
       <workItem from="1602564152853" duration="4682000" />
       <workItem from="1602587742353" duration="12023000" />
-      <workItem from="1602632645450" duration="1955000" />
+      <workItem from="1602632645450" duration="3003000" />
     </task>
     <servers />
   </component>
@@ -805,15 +798,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123450000" />
+    <option name="totallyTimeSpent" value="124498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="330" y="6" width="915" height="675" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14551334" side_tool="true" weight="0.0" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.0" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3274648" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32672113" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -829,10 +822,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32924336" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85448664" visible="true" weight="0.14498141" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85448664" visible="true" weight="0.13978495" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32795697" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.36522755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.2926435" />
       <window_info id="Web" order="7" sideWeight="0.5010225" side_tool="true" weight="0.30521092" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" sideWeight="0.5010225" side_tool="true" weight="0.30521092" />
@@ -900,55 +893,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/_520it/crm/service/impl/EmployeeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/employee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -963,6 +907,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/page/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1071,13 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1233,24 +1166,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="113" column="46" lean-forward="true" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/listener/ServerStartupListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
@@ -1265,6 +1184,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="113" column="46" lean-forward="true" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/myFn.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>

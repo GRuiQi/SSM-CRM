@@ -5,7 +5,9 @@
   Time: 12:49
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="myFn" uri="http://www.520it.com/ssm-crm/permission" %>
 <html>
 <head>
     <title>员工管理</title>
@@ -17,9 +19,12 @@
     <table id="emp_datagrid"></table>
     <%--数据的顶部按钮--%>
     <div id="emp_datagrid_tb">
+
         <a class="easyui-linkbutton"  iconCls="icon-add" data-cmd="add" plain="true">新增</a>
         <a class="easyui-linkbutton" id="emp_datagrid_edit" iconCls="icon-edit" data-cmd="edit" plain="true">编辑</a>
-        <a class="easyui-linkbutton" id="emp_datagrid_del" iconCls="icon-remove" data-cmd="del" plain="true">离职</a>
+        <c:if test="${myFn:checkPermission('com._520it.crm.web.controller.EmployeeController:delete')}">
+            <a class="easyui-linkbutton" id="emp_datagrid_del" iconCls="icon-remove" data-cmd="del" plain="true">离职</a>
+        </c:if>
         <a class="easyui-linkbutton" iconCls="icon-reload" data-cmd="reload" plain="true">刷新</a>
         <div>
             关键字查询：<input name="keyword"><a class="easyui-linkbutton" iconCls="icon-search" onclick="find()">搜索</a>
