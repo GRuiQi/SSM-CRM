@@ -7,39 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a75d077-f221-400b-b603-f69640cbc4ca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/PermissionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/PermissionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/UserContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/views/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/_520it/crm/mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/_520it/crm/mapper/DepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/_520it/crm/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/_520it/crm/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/_520it/crm/service/IDepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/_520it/crm/service/IDepartmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/_520it/crm/service/impl/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/_520it/crm/service/impl/DepartmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/_520it/crm/web/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/_520it/crm/web/controller/DepartmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/_520it/crm/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/_520it/crm/web/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/mapper/DepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/service/IDepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/service/IDepartmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/service/impl/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/service/impl/DepartmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/web/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/web/controller/DepartmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/com/_520it/crm/web/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/js/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-crm-1.0-SNAPSHOT/js/views/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,7 +78,7 @@
       <file leaf-file-name="MenuMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="141">
               <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
@@ -293,8 +260,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="688" />
-    <option name="y" value="19" />
+    <option name="x" value="268" />
+    <option name="y" value="16" />
     <option name="width" value="1301" />
     <option name="height" value="998" />
   </component>
@@ -844,7 +811,7 @@
       <workItem from="1602587742353" duration="12023000" />
       <workItem from="1602632645450" duration="5721000" />
       <workItem from="1602649875774" duration="5345000" />
-      <workItem from="1602682362508" duration="2966000" />
+      <workItem from="1602682362508" duration="3367000" />
     </task>
     <servers />
   </component>
@@ -866,11 +833,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135527000" />
+    <option name="totallyTimeSpent" value="135928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="459" y="13" width="867" height="665" extended-state="0" />
-    <editor active="true" />
+    <frame x="179" y="11" width="867" height="665" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14551334" side_tool="true" weight="0.0" />
@@ -891,7 +857,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32924336" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.85448664" visible="true" weight="0.13636364" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85448664" weight="0.13636364" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32795697" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49462366" weight="0.37206426" />
@@ -1304,7 +1270,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="141">
           <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
