@@ -10,5 +10,8 @@
         <module name="ssm-crm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssm-crm" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

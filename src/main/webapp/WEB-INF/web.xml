@@ -18,7 +18,7 @@
         <listener-class>com._520it.crm.web.listener.ServerStartupListener</listener-class>
     </listener>
 
-    <!--    配置字符编码过滤器-->
+    <!--配置字符编码过滤器-->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

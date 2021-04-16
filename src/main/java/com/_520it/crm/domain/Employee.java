@@ -1,5 +1,6 @@
 package com._520it.crm.domain;
 
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.Setter;

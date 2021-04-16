@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ssm-crm:war" />
+      <artifact name="ssm-crm:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a75d077-f221-400b-b603-f69640cbc4ca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
+    <list default="true" id="48cb0b48-7792-4189-8c4e-ac3320bb1c3f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,38 +27,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ssm-crm" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IDepartmentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java">
+      <file leaf-file-name="employee.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/employee.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/_520it/crm/service/impl/EmployeeServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="133">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#3575#3576#0" expanded="true" />
-                <element signature="e#3633#3634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="employee.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Menu.java">
+      <file leaf-file-name="PageResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/page/PageResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,112 +63,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="笔记.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+      <file leaf-file-name="department.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/department.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-131">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java">
+      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="933">
+              <caret line="84" column="12" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.xml">
+      <file leaf-file-name="LogMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="-492" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="43" column="23" selection-start-line="37" selection-start-column="7" selection-end-line="43" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMenuService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IMenuService.java">
+      <file leaf-file-name="DepartmentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/MenuServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-              <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/PermissionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/util/PermissionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#checkPermission#0;class#PermissionUtil#0" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src=&quot;</find>
-      <find>src</find>
-      <find>$(&quot;#emp_datagrid&quot;)</find>
-      <find>$(&quot;#emp_dialog&quot;)</find>
-      <find>$(&quot;#emp_form&quot;)</find>
-      <find>insert</find>
-      <find>deleteByPrimaryKey</find>
-      <find>updateByPrimaryKey</find>
-      <find>employeeDao</find>
-      <find>log</find>
-      <find>/</find>
+      <find>&lt;scope&gt;provided&lt;/scope&gt;</find>
     </findStrings>
-    <replaceStrings>
-      <replace>href=&quot;${APP_PATH}</replace>
-      <replace>employeeMapper</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -169,57 +124,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/LogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/LogUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/permission.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/PermissionController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/role.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/employee.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IEmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/笔记.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Permission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IPermissionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/CommonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/noPermission.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/noPermission.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/myFn.tld" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IMenuService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/views/department.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/DepartmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/UserContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/util/PermissionUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-mvc.xml" />
       </list>
     </option>
   </component>
@@ -239,9 +148,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven-repository" />
-        <option name="mavenHome" value="E:/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="E:\develop\maven\maven-repository-3" />
+        <option name="mavenHome" value="E:/develop/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\develop\maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -252,6 +161,21 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssm-crm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-crm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-crm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-crm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -259,224 +183,99 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="16" />
-    <option name="width" value="1301" />
-    <option name="height" value="998" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="118" />
+    <option name="y" value="133" />
+    <option name="width" value="1307" />
+    <option name="height" value="893" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-easyui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -484,16 +283,16 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -501,91 +300,32 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM-CRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="_520it" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM-CRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Employcon.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;permissionCon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;EmploySer&#9;PSI&#9;JAVA://com._520it.crm.service.impl.EmployeeService&#10;empc&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;menuma.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/MenuMapper.xml&#10;indeconj&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/IndexController.java&#10;index&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/index.js&#10;index.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/index.js&#10;empcon.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;employee.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/WEB-INF/views/employee.jsp&#10;logininter&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;RoleCon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/RoleController.java&#10;permissionu&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/PermissionUtil.java&#10;permi.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;Loginin.j&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;Perm.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;login.ja&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java&#10;EmployeeController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;empmapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;employmapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;EmployeeController.java&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;emp.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;empcon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;empmapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java&#10;mapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;empCon&#9;PSI&#9;JAVA://com._520it.crm.web.controller.EmployeeController&#10;emp.&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;employee.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;RoleController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/RoleController.java&#10;permmapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;RoleMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;rolemapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;Perm&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;role.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/role.js&#10;permissionMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;PermissionController&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;rolemapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;Per.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml&#10;RoleMapp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/RoleMapper.xml&#10;PermissionC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/PermissionController.java&#10;role.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/WEB-INF/views/role.jsp&#10;Employeecon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Logutil&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/LogUtil.java&#10;UserC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/UserContext.java&#10;LogMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/LogMapper.xml&#10;UserContext&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/util/UserContext.java&#10;empMapper&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml&#10;Emcon&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/web/controller/EmployeeController.java&#10;Employee.js&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/webapp/js/views/employee.js&#10;EmpMapper.&#9;FILE&#9;file://E:/My Note/编程/SSM-CRM/ssm-crm/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml" />
+    <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file://E:/[my note]/MyProject/SSM-CRM/pom.xml&#10;MapperStatement&#9;null&#9;null&#10;jdbc&#9;FILE&#9;file://E:/[my note]/MyProject/SSM-CRM/src/main/resources/jdbc.properties&#10;Departm&#9;PSI&#9;JAVA://com._520it.crm.domain.Department" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com._520it.crm.service.impl" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp" />
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp\WEB-INF\views" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\java\com\_520it\crm\query" />
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\webapp" />
-      <recent name="E:\My Note\编程\SSM-CRM\ssm-crm\src\main\resources" />
-    </key>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -599,12 +339,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat 8">
+  <component name="RunManager" selected="JUnit.EmployeeServiceTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EmployeeServiceTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm-crm" />
+    <configuration name="EmployeeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSM-CRM" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com._520it.crm.service.impl.*" />
@@ -615,8 +355,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com._520it.crm.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com._520it.crm.service.impl.EmployeeServiceTest" />
-      <option name="METHOD_NAME" value="insert" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -642,30 +382,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -688,20 +404,18 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssm-crm/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ssm-crm:war">
+        <artifact name="ssm-crm:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/ssm-crm" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm-crm" />
-        <option name="HTTP_PORT" value="8082" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSM-CRM_3" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -709,7 +423,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2341" />
+        <option name="DEBUG_PORT" value="6563" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -758,18 +472,17 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ssm-crm:war" />
+          <artifact name="ssm-crm:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.mybatis-generator" />
-      <item itemvalue="Tomcat Server.tomcat 8" />
-      <item itemvalue="JUnit.EmployeeServiceTest.insert" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="JUnit.EmployeeServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeServiceTest.insert" />
+        <item itemvalue="JUnit.EmployeeServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -778,207 +491,280 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a75d077-f221-400b-b603-f69640cbc4ca" name="Default" comment="" />
-      <created>1601997351882</created>
+      <changelist id="48cb0b48-7792-4189-8c4e-ac3320bb1c3f" name="Default" comment="" />
+      <created>1610633049373</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601997351882</updated>
-      <workItem from="1601997353343" duration="898000" />
-      <workItem from="1601998791783" duration="1628000" />
-      <workItem from="1602035027385" duration="7150000" />
-      <workItem from="1602044919020" duration="2461000" />
-      <workItem from="1602056219841" duration="2102000" />
-      <workItem from="1602058433686" duration="885000" />
-      <workItem from="1602059441394" duration="553000" />
-      <workItem from="1602060091490" duration="186000" />
-      <workItem from="1602060321995" duration="201000" />
-      <workItem from="1602060570014" duration="534000" />
-      <workItem from="1602061150924" duration="972000" />
-      <workItem from="1602070117803" duration="9222000" />
-      <workItem from="1602125440641" duration="20520000" />
-      <workItem from="1602211406314" duration="2500000" />
-      <workItem from="1602215395619" duration="8716000" />
-      <workItem from="1602243191765" duration="6047000" />
-      <workItem from="1602304815280" duration="7867000" />
-      <workItem from="1602329812312" duration="1374000" />
-      <workItem from="1602335055443" duration="3889000" />
-      <workItem from="1602420184432" duration="2736000" />
-      <workItem from="1602467933745" duration="11036000" />
-      <workItem from="1602508039881" duration="3719000" />
-      <workItem from="1602511797122" duration="5010000" />
-      <workItem from="1602547045741" duration="4584000" />
-      <workItem from="1602564152853" duration="4682000" />
-      <workItem from="1602587742353" duration="12023000" />
-      <workItem from="1602632645450" duration="5721000" />
-      <workItem from="1602649875774" duration="5345000" />
-      <workItem from="1602682362508" duration="3367000" />
+      <updated>1610633049373</updated>
+      <workItem from="1610633050945" duration="1974000" />
+      <workItem from="1610637500404" duration="496000" />
+      <workItem from="1610638060091" duration="35000" />
+      <workItem from="1610676301237" duration="1261000" />
+      <workItem from="1610677798435" duration="181000" />
+      <workItem from="1610678014518" duration="439000" />
+      <workItem from="1610692818696" duration="4433000" />
+      <workItem from="1610700361542" duration="1836000" />
+      <workItem from="1610717248296" duration="1766000" />
+      <workItem from="1610719370098" duration="3166000" />
+      <workItem from="1610723884551" duration="2930000" />
+      <workItem from="1610757636619" duration="4573000" />
+      <workItem from="1610764586117" duration="436000" />
+      <workItem from="1610765089631" duration="1541000" />
+      <workItem from="1610767024024" duration="1201000" />
+      <workItem from="1610783310570" duration="666000" />
+      <workItem from="1611393438241" duration="290000" />
+      <workItem from="1611450768317" duration="101000" />
+      <workItem from="1612448447777" duration="4220000" />
+      <workItem from="1613138963154" duration="84000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="EmployeeServiceTest_insert - 2020.10.07 at 12h 03m 23s.xml">
-      <configuration name="EmployeeServiceTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_insert - 2020.10.07 at 12h 06m 47s.xml">
-      <configuration name="EmployeeServiceTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_insert - 2020.10.07 at 12h 09m 28s.xml">
-      <configuration name="EmployeeServiceTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_insert - 2020.10.07 at 12h 12m 01s.xml">
-      <configuration name="EmployeeServiceTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest_insert - 2020.10.07 at 12h 40m 35s.xml">
-      <configuration name="EmployeeServiceTest.insert" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135928000" />
+    <option name="totallyTimeSpent" value="31629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="179" y="11" width="867" height="665" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14551334" side_tool="true" weight="0.0" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.0" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32672113" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6160065" side_tool="true" weight="0.325" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.38399354" weight="0.3277592" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.26596606" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" weight="0.46057573" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.38803557" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34408602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8183556" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.7590822" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32924336" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85448664" weight="0.13636364" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7707231" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32795697" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49462366" weight="0.37206426" />
-      <window_info id="Web" order="7" sideWeight="0.5010225" side_tool="true" weight="0.30521092" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26434922" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="5" sideWeight="0.5010225" side_tool="true" weight="0.30521092" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.47658864" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.18996416" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32833022" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.0" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.38399354" weight="0.3277592" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85448664" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7707231" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.38803557" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5010225" side_tool="true" weight="0.30521092" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32795697" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14551334" side_tool="true" weight="0.0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.7590822" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6160065" side_tool="true" weight="0.325" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.75661373" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32924336" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3274648" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.14389652" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32902184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32384342" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" sideWeight="0.5010225" side_tool="true" weight="0.30521092" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" weight="0.46057573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.18996416" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34408602" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32833022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8183556" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="27" />
-    </breakpoint-manager>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/maven-repository/org/springframework/spring-web/4.2.3.RELEASE/spring-web-4.2.3.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven-repository/org/springframework/spring-web/4.2.3.RELEASE/spring-web-4.2.3.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven-repository/org/springframework/spring-webmvc/4.2.3.RELEASE/spring-webmvc-4.2.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="402" selection-start-line="402" selection-end-line="402" />
+        <state relative-caret-position="95">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/ILogService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SSM-CRM.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Menu.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Log.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IMenuService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/util/LogUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/DepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="114">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Role.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="266">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/role.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/listener/ServerStartupListener.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -987,300 +773,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/noPermission.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/noPermission.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="64" column="52" lean-forward="true" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/myFn.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-end-line="27" />
+        <state relative-caret-position="646">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/PermissionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/index.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="1216">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/permission.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/employee.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department.jsp">
+    <entry file="file://$PROJECT_DIR$/src/test/com/_520it/crm/service/impl/EmployeeServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/page/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/views/department.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1549">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/DepartmentController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/DepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/util/UserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="90" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
+        <state relative-caret-position="490">
+          <caret line="43" column="23" selection-start-line="37" selection-start-column="7" selection-end-line="43" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/DepartmentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="-131">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/EmployeeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/EmployeeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="933">
+          <caret line="84" column="12" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/PermissionController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/LogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IDepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/util/PermissionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="81" column="22" lean-forward="true" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkPermission#0;class#PermissionUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/service/IMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/web/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#3575#3576#0" expanded="true" />
-            <element signature="e#3633#3634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/domain/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/_520it/crm/mapper/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
+        <state relative-caret-position="-492" />
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ProjectJDKs.UI">
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssm-crm:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SSM-CRM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

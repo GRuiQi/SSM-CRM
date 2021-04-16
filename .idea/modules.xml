@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/SSM-CRM.iml" filepath="$PROJECT_DIR$/src/SSM-CRM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm-crm.iml" filepath="$PROJECT_DIR$/ssm-crm.iml" />
+    </modules>
+  </component>
+</project>
